@@ -1,0 +1,14 @@
+:root {
+    --color-primary: #382ae1;
+    --color-body: #f0f4ff;
+    --button-shadow: #dcddf2;
+    --color-icon-back: #dee4fc;
+}
+
+.btn {
+    border-radius: 10px;
+    border: 0;
+    background: var(--color-primary);
+    color: #fff;
+    padding: 0.8rem 3rem;
+}
