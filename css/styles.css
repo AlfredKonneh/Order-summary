@@ -1,14 +1,46 @@
 :root {
-    --color-primary: #382ae1;
-    --color-body: #f0f4ff;
-    --button-shadow: #dcddf2;
-    --color-icon-back: #dee4fc;
+  --color-primary: #382ae1;
+  --color-body: #f0f4ff;
+  --button-shadow: #dcddf2;
+  --color-icon-back: #dee4fc;
 }
 
 .btn {
-    border-radius: 10px;
-    border: 0;
-    background: var(--color-primary);
-    color: #fff;
-    padding: 0.8rem 3rem;
+  border-radius: 10px;
+  border: 0;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 0.8rem 3rem;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 9px 6px 8px #dedafd;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  border-radius: 10px;
+  background: #f8f9fe;
+  justify-content: space-around;
+  height: 4rem;
+  align-items: center;
+  justify-items: center;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+.container a:hover {
+  text-decoration: none;
 }
