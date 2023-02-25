@@ -1,31 +1,47 @@
 :root {
   --color-primary: #382ae1;
-  --color-body: #f0f4ff;
-  --button-shadow: #dcddf2;
-  --color-icon-back: #dee4fc;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  background: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  background-size: cover;
+  margin: 0;
+
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .btn {
   border-radius: 10px;
-  border: 0;
   background: var(--color-primary);
   color: #fff;
   padding: 0.8rem 3rem;
-  cursor: pointer;
-  width: 100%;
+  width: 70%;
   box-shadow: 0 9px 6px 8px #dedafd;
   display: block;
   text-align: center;
+  text-decoration: none;
+  margin: auto;
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
+  width: 70%;
   border-radius: 10px;
   background: #f8f9fe;
   justify-content: space-around;
   height: 4rem;
   align-items: center;
   justify-items: center;
+  margin: 2rem;
 }
 
 h2,
@@ -44,3 +60,54 @@ a {
 .container a:hover {
   text-decoration: none;
 }
+
+.card {
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+  margin: auto 1rem;
+  overflow-x: hidden;
+  line-height: 1.5;
+  width: 80%;
+  height: auto;
+  margin: 4rem auto;
+}
+
+.card__header {
+  height: 17rem;
+  background: url(/images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card__body {
+  text-align: center;
+  margin: auto;
+}
+
+.order__information{
+  color: #aeb2be;
+  width: 30ch;
+  margin: auto;
+  text-align: center;
+}
+
+ .order {
+  display: inline-block;
+  text-decoration: none;
+  color: #b1afc5;
+  margin: 2rem;
+ }
+
+ @media screen and (min-width: 1024px) {
+  .card{
+    max-width: 700px;
+  }
+
+  body {
+    background: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+  }
+ }
