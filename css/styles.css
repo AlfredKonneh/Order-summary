@@ -124,7 +124,11 @@ a {
   }
 
   .card {
-    max-width: 27rem;
+    max-width: 450px;
     margin: 4rem auto;
+  }
+
+  .order__information{
+    font-size: 1.2rem;
   }
 }
