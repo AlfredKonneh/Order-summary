@@ -92,7 +92,6 @@ a {
   align-items: end;
   text-align: center;
   margin: auto;
-  height: ;
 }
 
 .order__information {
@@ -125,6 +124,6 @@ a {
   }
 
   .card {
-    margin: 2rem auto;
+    margin: auto auto;
   }
 }
