@@ -96,7 +96,7 @@ a {
 
 .order__information {
   color: #aeb2be;
-  width: 40ch;
+  width: 30ch;
   font-size: 1.5rem;
 }
 
@@ -124,6 +124,7 @@ a {
   }
 
   .card {
-    margin: auto auto;
+    max-width: 27rem;
+    margin: 4rem auto;
   }
 }
