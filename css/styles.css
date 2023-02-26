@@ -24,7 +24,7 @@ body {
   background: var(--color-primary);
   color: #fff;
   padding: 0.8rem 3rem;
-  width: 70%;
+  width: 80%;
   box-shadow: 0 9px 6px 8px #dedafd;
   display: block;
   text-align: center;
@@ -34,7 +34,7 @@ body {
 
 .container {
   display: inline-flex;
-  width: 70%;
+  width: 80%;
   border-radius: 10px;
   background: #f8f9fe;
   justify-content: space-around;
@@ -87,7 +87,7 @@ a {
 
 .order__information{
   color: #aeb2be;
-  width: 30ch;
+  width: 40ch;
   margin: auto;
   text-align: center;
 }
